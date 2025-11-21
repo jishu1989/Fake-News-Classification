@@ -1,2 +1,2 @@
-# Fake-News-Classification
+# Fake News Classification
 NLP Course Project
