@@ -15,8 +15,9 @@ might throw us an error, anything like that.The second step is removing noise fr
 - Tokenization: Breaking text into smaller units. This process is called tokenization. Smaller units -> **tokens**. Which can be words, sentences, subwords, characters. In order to tokenize sentences we use the package : ```nltk.download('punkt_tab')```, table used to figure out where sentences begin and end.
 **word_tokenize, sent_tokenize**: In word_tokenize the individual words are tokenized output:list of word tokens, or sometimes characters, sent_tokenize: individual sentences are tokenized output:list of sentences.
 - Stemming: reduces words to their base form. f.e connected, connecting -> connect. It works by chopping of endings or suffixes. Stemming reduces number of unique words.Reduces complexity and keeps dataset easier to manage. The Porter stemmer is a classic rule based algorithm that reduces English words to a simpler base ```from nltk.stem import PorterStemmer```.
-- Lemmetization
-- N-grams
+- Lemmetization: reduces a word to meaningful baseform while preserving its meaning. WordNet is an extensive lexical database of English.
+Basically a built in dictionary that the Lemmatizer uses to make sure the base forms it produces are real words.Then import the WordNet lemmatizer from NLTK.
+- N-grams: N-gram helps us analyze relationship between neighboring words. Its sequence of N-tokens. How many words are grouped. When N=1, Unigram. When N=2,Bigram, when N=3,Trigram.
 
 ## Speech Tagging and Entity Recognition
 
