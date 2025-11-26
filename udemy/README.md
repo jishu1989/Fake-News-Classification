@@ -12,8 +12,9 @@ might throw us an error, anything like that.The second step is removing noise fr
   - ```re.search()```: searches whether a specified pattern appears within a string
   - ```re.sub()```: searches a specific text within a string, and replaces it with new content.
   - ```re.split()```: function returns a list where the string has been split at each match.
-- Tokenization
-- Stemming
+- Tokenization: Breaking text into smaller units. This process is called tokenization. Smaller units -> **tokens**. Which can be words, sentences, subwords, characters. In order to tokenize sentences we use the package : ```nltk.download('punkt_tab')```, table used to figure out where sentences begin and end.
+**word_tokenize, sent_tokenize**: In word_tokenize the individual words are tokenized output:list of word tokens, or sometimes characters, sent_tokenize: individual sentences are tokenized output:list of sentences.
+- Stemming:
 - Lemmetization
 - N-grams
 
