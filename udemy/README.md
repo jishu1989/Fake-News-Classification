@@ -3,9 +3,12 @@ NLP is part of AI Engineering course and I try some hands on with some NLP conce
 vectorizing text, topic modelling, etc. And Finally work on course project. 
 
 ## Text Processing
-- Lower casing
-- Removing top words
-- Regular expressions
+Its important to preprocess data in order to feed high quality data into our ML algorithms. If you provide unprocessed data into the algorithm, its accuracy and efficiency will be low. Because unprocessed data contains noise. There are a number of steps involved in pre-processing our text data and getting it ready for further analysis.The first step is just general cleaning.So taking our data set, getting it organized, tidying up the text, you know, removing anything that
+might throw us an error, anything like that.The second step is removing noise from our data set.So if we've got aspects in our data that aren't adding any value and they're just taking up space in memory, we can remove these and we'll be left with a smaller, cleaner dataset to work with.The third step is just getting that data in the right format for the machine learning algorithm we want to use.
+
+- Lower casing:
+- Removing stop words:
+- Regular expressions:
 - Tokenization
 - Stemming
 - Lemmetization
