@@ -14,7 +14,7 @@ might throw us an error, anything like that.The second step is removing noise fr
   - ```re.split()```: function returns a list where the string has been split at each match.
 - Tokenization: Breaking text into smaller units. This process is called tokenization. Smaller units -> **tokens**. Which can be words, sentences, subwords, characters. In order to tokenize sentences we use the package : ```nltk.download('punkt_tab')```, table used to figure out where sentences begin and end.
 **word_tokenize, sent_tokenize**: In word_tokenize the individual words are tokenized output:list of word tokens, or sometimes characters, sent_tokenize: individual sentences are tokenized output:list of sentences.
-- Stemming:
+- Stemming: reduces words to their base form. f.e connected, connecting -> connect. It works by chopping of endings or suffixes. Stemming reduces number of unique words.Reduces complexity and keeps dataset easier to manage. The Porter stemmer is a classic rule based algorithm that reduces English words to a simpler base ```from nltk.stem import PorterStemmer```.
 - Lemmetization
 - N-grams
 
