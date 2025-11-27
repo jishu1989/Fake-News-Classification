@@ -22,7 +22,7 @@ Basically a built in dictionary that the Lemmatizer uses to make sure the base f
 ## Speech Tagging and Named Entity Recognition  
 Two types of tagging - 1. Parts of Speech tagging 2. Named entity recognition.  
 - **Parts of Speech:** Where we take each of our tokens and tag them with the associated parts of speech. Parts of speech we mean whether that token is a verb, a noun, an adjective, etc.  
- - **Named Entity Recognition:** The second method is named entity recognition.So instead of going through each of the tokens and tagging them, this method searches through our text and pulls out named entities.
+ - **Named Entity Recognition:** The second method is named entity recognition.So instead of going through each of the tokens and tagging them, this method searches through our text and pulls out named entities. For example: person, location, ordinal, geopolitical.
 
 ## Sentiment Analysis
 
