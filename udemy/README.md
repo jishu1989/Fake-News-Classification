@@ -19,7 +19,10 @@ might throw us an error, anything like that.The second step is removing noise fr
 Basically a built in dictionary that the Lemmatizer uses to make sure the base forms it produces are real words.Then import the WordNet lemmatizer from NLTK.
 - N-grams: N-gram helps us analyze relationship between neighboring words. Its sequence of N-tokens. How many words are grouped. When N=1, Unigram. When N=2,Bigram, when N=3,Trigram.
 
-## Speech Tagging and Entity Recognition
+## Speech Tagging and Named Entity Recognition  
+Two types of tagging - 1. Parts of Speech tagging 2. Named entity recognition.
+**Parts of Speech:** Where we take each of our tokens and tag them with the associated parts of speech. Parts of speech we mean whether that token is a verb, a noun, an adjective, etc..
+**Named Entity Recognition:** The second method is named entity recognition.So instead of going through each of the tokens and tagging them, this method searches through our text and pulls out named entities.
 
 ## Sentiment Analysis
 
